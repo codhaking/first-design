@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {font-family: 'Ravi Prakash', cursive;}
+h1{
+	font-size: 5vw;
+	margin-top: 10px;
+
+}
+
+body{
+  background-position: center center;
+  background-image: url("https://res.cloudinary.com/amichania/image/upload/v1650512144/New/Logo_f3w3xw.jpg");
+  background-size: cover;
+  backgroound-position:absolute;
+  background-attachment: fixed;
+  background-color: #31263E;
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
+
+.fade {
+  color: rgba(255, 255, 255, 0.8); 
+  display: flex;
+  justify-content: center;}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary {
+  background-color: #E7BB41;
+  border-color: #E7BB41; 
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 1% 1.5%;
+  position: absolute;
+  top: 73%;
+  left: 44%;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 10px;
+  cursor: pointer;
+}
+
